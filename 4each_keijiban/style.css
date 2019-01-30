@@ -1,0 +1,149 @@
+header{
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 60px;
+    background-color: black;
+}
+header ul{
+    float: left;
+    line-height: 40px;
+}
+header ul li{
+    float: left;
+    list-style: none;
+    padding-right: 85px;
+    padding-left: 85px;
+    color: white;
+    font-size: 18px;
+}
+main{
+    clear: both;
+}
+.left{
+    float: left;
+    width: 70%;
+    height: 2100px;
+    margin-bottom: 40px;
+}
+
+h1{
+    padding-left: 15px;
+    margin-left: 20px;
+    border-bottom: 3px solid black;
+    border-left: 3px solid black;
+    text-align: left;
+    max-width:1000px;
+}
+
+.nyuuryoku{ 
+    margin: 5px;
+    margin-top:30px;
+    margin-bottom: 20px;
+    border-left: 5px red solid;
+    padding-top:5px;
+    padding-bottom: 5px;
+    padding-left: 12px;
+    width: 450px;
+    font-size: 20px;
+}
+
+form{margin: 15px;
+    background-color:#fbfbfb;
+    border: 3px #ebebeb solid;
+    border-radius: 10px;
+    width: 1065px;
+}
+
+form div{padding:15px;
+}
+
+.text, textarea, .dropdown{
+    border:1px solid #dfdfdf;
+    padding:5px;
+    color: #999;
+    background: #fff;
+}
+
+.submit{
+    border:1px solid lightgray;
+    padding: 4px 10px;
+    color:white;
+    background-color:silver;
+    border-radius: 5px;
+    border-bottom: solid 2px gray;
+}
+
+
+.box1{
+    margin: 15px;
+    background-color:#fbfbfb;
+    border: 3px #ebebeb solid;
+    border-radius: 10px;
+    width: 1050px;
+}
+
+.box2{
+    margin: 15px;
+    background-color:#fbfbfb;
+    border: 3px #ebebeb solid;
+    border-radius: 10px;
+    width: 1050px;
+}
+
+h3{
+    margin: 5px;
+    margin-top:20px;
+    margin-bottom: 20px;
+    border-bottom: 2px gray solid;
+    padding-top:5px;
+    padding-bottom: 5px;
+    padding-left: 12px;
+    width: 1000px;
+    font-size: 20px;
+}
+
+.handlename{
+    padding-top: 10px;
+}
+
+.nakami{
+    padding-left: 10px;
+    padding-bottom: 15px;
+}
+
+.right{
+    float: right;
+    width: 30%;
+    height: 2100px;
+    margin-bottom: 40px;
+
+}
+
+.side1{
+    border-bottom: 4px dotted black;
+}
+
+.side2{
+    border-bottom: 4px dotted black;
+}
+
+.side3{
+    border-bottom: 4px dotted black;
+}
+
+.right ul li{
+    font-size: 20px;
+    list-style: none;
+    margin-left: -20px;
+}
+
+footer{
+    clear: left;
+    width: 100%;
+    height: 60px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    line-height: 50px;
+}
