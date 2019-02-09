@@ -10,7 +10,6 @@ public class ListSample {
 		List<String>list=new ArrayList<String>();
 		
 		
-		//値の記憶はaddメソッドを利用
 		list.add("1");
 		list.add("2");
 		list.add("3");
@@ -19,12 +18,10 @@ public class ListSample {
 		
 		//値の取得
 		for(int i=0; i<list.size() -1; i++){
-			//値の取得はgetメソッドを利用
 			System.out.println(list.get(i));
 			
 		}
 		
-		//拡張for文を利用するともっと簡単
 		for(String s : list){
 			System.out.println(s);
 		}
