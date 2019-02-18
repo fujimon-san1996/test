@@ -1,5 +1,5 @@
 drop database if exists sampledb;
-create database sample_table;
+create database sampledb;
 use sampledb;
 
 create table sample_table(
