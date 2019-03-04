@@ -11,7 +11,7 @@ public class TestAction extends ActionSupport{
 		return username;
 	}
 	public void setUsername(String username){
-		this.username = username;
+		this.username=username;
 	}
 
 	public String getPassword(){
@@ -19,7 +19,7 @@ public class TestAction extends ActionSupport{
 	}
 
 	public void setPassword(String password){
-		this.password = password;
+		this.password=password;
 	}
 
 
