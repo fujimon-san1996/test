@@ -10,5 +10,8 @@
 <fullyQualifiedTypeName name="java.sql.Connection"/>
 <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
 <fullyQualifiedTypeName name="java.sql.ResultSet"/>
+<fullyQualifiedTypeName name="com.internousdev.webproj2.util.DBConnector"/>
 <fullyQualifiedTypeName name="com.internousdev.webproj2.dao.LoginDAO"/>
+<fullyQualifiedTypeName name="com.internousdev.webproj2.dao.InquiryCompleteDAO"/>
+<fullyQualifiedTypeName name="com.internousdev.webproj2.dao.TestDAO"/>
 </qualifiedTypeNameHistroy>

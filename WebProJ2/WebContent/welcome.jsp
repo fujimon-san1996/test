@@ -13,6 +13,6 @@
 	<s:textfield name="username" label="ユーザー名:" />
 	<s:password name="password" label="パスワード:" />
 	<s:submit value="送信" />
-	</s:form>
-	</body>
+</s:form>
+</body>
 </html>

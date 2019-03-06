@@ -8,7 +8,6 @@ import java.sql.SQLException;
 import com.internousdev.webproj2.util.DBConnector;
 
 public class LoginDAO {
-
 	public String username;
 	public String password;
 
@@ -26,7 +25,7 @@ public class LoginDAO {
 			if(rs.next()){
 				this.username=rs.getString("user_name");
 				this.password=rs.getString("password");
-						ret=true;
+				ret=true;
 			}
 		}catch(SQLException e){
 			e.printStackTrace();
