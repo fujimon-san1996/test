@@ -14,12 +14,12 @@ public class TestDAO {
 	Connection con=db.getConnection();
 	String sql="insert into users(user_name, password) values(?,?)";
 	try{
-		PreparedStatement ps=con.prepareStatement(sql);
+		PreparedStatement ps =con.prepareStatement(sql);
 		ps.setString(1, username);
 		ps.setString(2, password);
 		int i=ps.executeUpdate();
 		if(i > 0){
-			System.out.println(i+ "件登録されました");
+			System.out.println(i + "件登録されました");
 			ret=i;
 		}
 	}catch(SQLException e){
