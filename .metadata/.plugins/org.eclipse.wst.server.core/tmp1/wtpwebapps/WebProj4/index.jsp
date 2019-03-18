@@ -23,6 +23,20 @@
 	<s:form action="InquiryAction">
 		<s:submit value="問い合わせ"/>
 	</s:form>
+	<br>
+	<h3>新規ユーザー登録</h3>
+	GET通信
+	<s:from method="get" action="TestAction">
+	<s:textgield name="username"/>
+	<s:password name="password"/>
+	<s:submit value="送信"/>
+	</s:from>
+	POST通信
+	<s:from method="post" action="TestAction">
+	<s:textfield name="username"/>
+	<s:password name="password"/>
+	<s:submit value="送信"/>
+	</s:from>
 
 </body>
 </html>
