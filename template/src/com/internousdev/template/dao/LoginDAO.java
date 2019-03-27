@@ -8,7 +8,7 @@ import com.internousdev.template.dto.LoginDTO;
 import com.internousdev.template.util.DBConnector;
 
 public class LoginDAO {
-	public LoginDTO getLoginUserInfo(String loginUserId, String loginPassword){
+	public LoginDTO getLoginUserInfo(String loginUserId,String loginPassword){
 
 		DBConnector dbConnector = new DBConnector();
 		Connection connection = dbConnector.getConnection();

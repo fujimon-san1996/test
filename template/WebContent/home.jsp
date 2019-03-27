@@ -15,7 +15,7 @@
 	<title>Home画面</title>
 
 	<style type="text/css">
-/* ===========TAG LAYOUT========= */
+	/* ===========TAG LAYOUT========= */
 
 		body {
 			 margin:0;
@@ -76,7 +76,7 @@
 		<s:form action="HomeAction">
 			<s:submit value="商品購入"/>
 		</s:form>
-	</div>
+		</div>
 	</div>
 	<div id="footer">
 		<div id="pr">

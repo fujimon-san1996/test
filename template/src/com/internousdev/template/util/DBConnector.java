@@ -10,7 +10,7 @@ public class DBConnector {
 	private static String url="jdbc:mysql://localhost/ecsite_fujimura";
 
 	private static String user="root";
-	private static String password="fujimon3924692mikumikuYANDElion";
+	private static String password="mysql";
 
 	public Connection getConnection(){
 		Connection con=null;
