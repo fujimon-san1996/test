@@ -1,0 +1,14 @@
+package com.internousdev.ecsite.action;
+
+import org.apache.struts2.interceptor.SessionAware;
+
+import com.opensymphony.xwork2.ActionSupport;
+
+public class HomeAction extends ActionSupport implements SessionAware {
+	public Mao<String,Object> session;
+	
+	public Stiring xecute(){
+		
+	}
+
+}
