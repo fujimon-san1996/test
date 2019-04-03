@@ -46,7 +46,7 @@
 		}
 		#footer{
 			width:100%;
-			height 80px;
+			height:80px;
 			text-align: center;
 		}
 
