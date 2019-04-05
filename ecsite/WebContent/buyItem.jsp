@@ -14,7 +14,7 @@
 	<title>BuyItem画面</title>
 
 	<style type="text/css">
-	/*=========TAG LAYOUT========*/
+	/*========TAG LAYOUT========*/
 		body{
 			margin:0;
 			padding:0;

@@ -14,11 +14,11 @@ public class UserCreateCompleteAction extends ActionSupport implements SessionAw
 	private String userName;
 	public Map<String,Object> session;
 	private UserCreateCompleteDAO userCreateCompleteDAO = new UserCreateCompleteDAO();
-	
-	public String execute() throws SQLException{
-		userCreateCompleteDAO.cerateUser(session.get("loginUserId").toString(), session.get("loginPassword").toString(), session.get("userName").toString());
+
+	public String execute() throws SQLException {
+		userCreateCompleteDAO.cerateUser(session.get("loginUserId").toString(),session.get("loginPassword").toString(),session.get("userName").toString());
 		String result = SUCCESS;
-		
+
 		return result ;
 	}
 	public String getLoginUserId(){
@@ -43,5 +43,4 @@ public class UserCreateCompleteAction extends ActionSupport implements SessionAw
 	public void setSession(Map<String, Object> session) {
 		this.session = session;
 	}
-
 }
