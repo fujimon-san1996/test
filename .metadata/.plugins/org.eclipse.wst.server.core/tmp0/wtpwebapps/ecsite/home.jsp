@@ -35,7 +35,7 @@
 			boorder:1px solid #333;
 		}
 		#header{
-			width:100px;
+			width:100%;
 			height:80px;
 			background-color:black;
 		}
@@ -67,7 +67,7 @@
 			</s:form>
 			<s:if test="#session.id !=null">
 				<p>ログアウトする場合は
-					<a href='<s:url action="LogoutAction" />'></a></p>
+					<a href='<s:url action="LogoutAction" />'>こちら</a></p>
 			</s:if>
 		</div>
 	</div>
